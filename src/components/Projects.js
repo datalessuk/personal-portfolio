@@ -6,7 +6,9 @@ function Projects(props){
 
     
     return(
+        
         <div className="projects-container">
+            <section id="projects">
             <div className="heading-container">
             <h1 className="projects-heading">{props.mainHeading}</h1>
             <h2>{props.subHeading}</h2>
@@ -37,6 +39,7 @@ function Projects(props){
            <p>{props.infoSecondLine}</p>
             </div>
         </div>
+        </section>
         </div>
     )
 }

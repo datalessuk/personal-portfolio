@@ -5,10 +5,10 @@ function Nav(){
     <nav>
         <div className="nav-container">
         <ul className="nav-links">
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Technologies</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Home</a></li>
+            <li><a href="#aboutme">Profile</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href='#projects'>Projects</a></li>
+            <li><a href="#home">Home</a></li>
         </ul>
         </div>
     </nav>

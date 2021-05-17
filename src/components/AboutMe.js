@@ -21,6 +21,7 @@ function AboutMe(){
 
     return(
         <div className="about-container">
+            <section id="aboutme">
             <h1>Profile</h1>
             <br />
             <h2>I'm a Junior <span>F</span>ront end <span>D</span>eveloper</h2>
@@ -42,6 +43,7 @@ function AboutMe(){
             {showText && <MyEdication  />}
              </div>
          </div>
+         </section>
         </div>
     )
 
