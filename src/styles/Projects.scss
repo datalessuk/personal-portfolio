@@ -1,0 +1,86 @@
+$color-primary: #4497E2;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.projects-container{
+    
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+}
+.heading-container{
+    border-top: solid 1px $color-primary;
+    margin: 0 auto;
+    text-align: center;
+    width: 1130px;
+     
+}
+
+.project-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    
+    
+    
+    p{
+        width: 500px;
+        text-align: left;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1.3rem;
+    }
+    h4{
+        font-size: 1.1rem;
+    }
+    span{
+        color: $color-primary;
+        font-weight: bold;
+    }
+
+    .col-1{
+        margin: 0 40px;
+    
+        img{
+            width: 400px;
+            height: 330px;
+            filter: brightness(1.20);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .icon{
+            width: 25px;
+            height: 25px;
+            box-shadow:none;
+            position: relative;
+            
+        }
+        a{
+            text-decoration: none;
+            color: $color-primary;
+            font-weight: bold;
+        }
+      
+
+        ul{
+            list-style-type: square;
+            list-style-position: outside;
+            font-size: 1.1rem;
+            text-align: left;
+            
+        }
+    }
+ 
+      
+}
+@media only screen and (max-width: 600px) {
+    .project-container{
+        flex-direction: column;
+    }
+    .heading-container{
+        width: 500px;
+    }
+}

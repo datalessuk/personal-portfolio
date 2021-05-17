@@ -1,0 +1,30 @@
+
+.toggle-button{
+    background: url(../Icons/comment-dots-regular.svg);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border:none;
+    
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    
+    
+    }
+
+
+.chatMenu{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 5px;
+    margin-right: 70px;
+    z-index: 1;
+    
+}
+.react-chatbot-kit-chat-btn-send{
+    background-color: black;
+}

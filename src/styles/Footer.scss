@@ -1,0 +1,26 @@
+$color-primary: #4497E2;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+footer{
+    font-family: 'Roboto', sans-serif;
+    height: 20vh;
+    background-color: $color-primary;
+
+    h1{
+        
+        padding-top: 50px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+
+    }
+    h3{
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+        font-weight: lighter;
+    }
+
+}
