@@ -29,7 +29,7 @@ function App(props) {
   return (
     <div className="App">
       <Header />
-     
+      <AboutMe />
       
     </div>
   );
