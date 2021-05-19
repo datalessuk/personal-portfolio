@@ -2,16 +2,19 @@ $color-primary: #4497E2;
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
-    background: linear-gradient( rgba(255,255,255,1) 76%, rgba(68,151,226,0.16290266106442575) 100%);
+    
     border-bottom: 1px solid $color-primary;
 }
+#aboutme{
+    background: linear-gradient( rgba(255,255,255,1) 76%, rgba(68,151,226,0.16290266106442575) 100%);
+    padding: 20px;
+}
 .about-container{
+    
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
-    background: rgb(255,255,255);
-    
     
     font-family: 'Roboto', sans-serif;
     h1{
@@ -33,6 +36,7 @@ body{
 
 
 .flex-container{
+    
     display: flex;
     flex-direction: row;
     text-align: center;
