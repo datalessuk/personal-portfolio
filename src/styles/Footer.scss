@@ -4,22 +4,19 @@ $color-primary: #4497E2;
 
 footer{
     font-family: 'Roboto', sans-serif;
-    height: 20vh;
+    height: 200px;
     background-color: $color-primary;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 
     h1{
-        
-        padding-top: 50px;
-        margin: 0 auto;
         text-align: center;
         color: white;
-
     }
     h3{
-        margin: 0 auto;
-        text-align: center;
         color: white;
-        padding-top: 10px;
         font-weight: lighter;
     }
 

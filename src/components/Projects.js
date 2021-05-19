@@ -6,13 +6,14 @@ function Projects(props){
 
     
     return(
-        
+        <section id="projects">
         <div className="projects-container">
-            <section id="projects">
-            <div className="heading-container">
+            
+            
             <h1 className="projects-heading">{props.mainHeading}</h1>
             <h2>{props.subHeading}</h2>
-            </div>
+            
+        </div>
           
         <div className="project-container">
 
@@ -35,12 +36,14 @@ function Projects(props){
             </div>
             <div className="col-2">
            <h4>Overview</h4>
+           <div className="heading">
            <p>{props.info}</p>
            <p>{props.infoSecondLine}</p>
+           </div>
             </div>
         </div>
         </section>
-        </div>
+        
     )
 }
 

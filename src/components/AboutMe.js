@@ -20,12 +20,14 @@ function AboutMe(){
     const [showText,setText] = useState(false);
 
     return(
+        <section id="aboutme">
         <div className="about-container">
-            <section id="aboutme">
+            
             <h1>Profile</h1>
             <br />
-            <h2>I'm a Junior <span>F</span>ront end <span>D</span>eveloper</h2>
+            <h2>I'm a Junior <span>F</span>ront End <span>D</span>eveloper</h2>
             <br />
+            </div>
         <div className="flex-container">
             
          <div className="col-1">
@@ -44,7 +46,7 @@ function AboutMe(){
              </div>
          </div>
          </section>
-        </div>
+        
     )
 
     function MyDetails(){
