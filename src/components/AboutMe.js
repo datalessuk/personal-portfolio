@@ -35,7 +35,7 @@ function AboutMe(){
                 <h3>All about me</h3>
                 <ol>
                     <li onClick={()=>setText(!showText)}>Details</li>
-                    <li onClick={()=>setText(!showText)}>Education</li>
+                    <li onClick={()=>setText(!showText)}>Education & Skills</li>
                     
                 </ol>
              </div>
@@ -67,6 +67,19 @@ function AboutMe(){
                     <p><span>University of Hull (2017-2020) </span> BSc Computer Science - Achieved grade 2:1
                     <br/>
                     <span>Weymouth College (2016)</span> BTEC ICT level 3 with triple distinction star (D*D*D*)
+                    <br />
+                    <span>
+                    <div className="skills-container">
+                        <ul id="skills-list">
+                        <li>html</li>
+                        <li>html</li>
+                        <li>html</li>
+                        <li>html</li>
+                        <li>html</li>
+                        <li>html</li>
+                        </ul>
+                        </div>
+                    </span>
                     </p>
                 </div>
             </React.Fragment>

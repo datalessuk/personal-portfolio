@@ -69,6 +69,20 @@ body{
     }
 }
 
+.skills-container{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+#skills-list{
+    display: flex;
+    flex-flow: row wrap;
+    
+    li{
+        flex-basis: 50%;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .flex-container{
         flex-direction: column;
