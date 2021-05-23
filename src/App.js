@@ -7,7 +7,7 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import ChatButton from './components/ChatButton'
-
+import NavBar from './components/NavBar'
 
 
 import personalImage from './img/Project-img/personal.PNG'
