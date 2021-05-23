@@ -1,5 +1,4 @@
 import '../styles/Footer.scss'
-import HeaderText from "../components/HeaderText"
 
 function Footer(){
     return(

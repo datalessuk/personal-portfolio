@@ -69,15 +69,33 @@ function AboutMe(){
                     <span>Weymouth College (2016)</span> BTEC ICT level 3 with triple distinction star (D*D*D*)
                     <br />
                     <span>
+                    <h4>Skills</h4>
                     <div className="skills-container">
                         <ul id="skills-list">
-                        <li>html</li>
-                        <li>html</li>
-                        <li>html</li>
-                        <li>html</li>
-                        <li>html</li>
-                        <li>html</li>
+                        <li>HTML(5)</li>
+                        <li>CSS(3)</li>
+                        <li>SASS</li>
+                        <li>JSON</li>
+                        <li>Javascript</li>
+                        <li>XML</li>
+                        <li>C#</li>
+                        <li>Java</li>
                         </ul>
+                        
+                        </div>
+                        <h4>Tools</h4>
+                        <div className="tools-container">
+                            <ul id="tools-list">
+                                <li>Firefox</li>
+                                <li>Chrome</li>
+                                <li>MS Office</li>
+                                <li>Notpad++</li>
+                                <li>Visual Studio</li>
+                                <li>Visual Studio Code</li>
+                                <li>Android Studio</li>
+                                <li>Git</li>
+                                <li>Subversion</li>
+                            </ul>
                         </div>
                     </span>
                     </p>
