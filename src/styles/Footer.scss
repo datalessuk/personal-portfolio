@@ -1,10 +1,8 @@
 $color-primary: #4497E2;
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-
 footer{
     font-family: 'Roboto', sans-serif;
-    height: 200px;
+    height: 400px;
     background-color: $color-primary;
     display: flex;
     flex-direction: column;

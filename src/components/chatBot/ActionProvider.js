@@ -1,5 +1,4 @@
-import React from 'react';
-//import { Link } from 'react-router-dom';
+
 class ActionProvider {
 
     
@@ -42,8 +41,6 @@ class ActionProvider {
     }
 
     handleAbout = ()=>{
-        const nextMessage = this.createChatBotMessage('hhhhh')
-
         const message = this.createChatBotMessage(
             `This bot is build using the core of react-chatbot kit by fredrikoseberg. For more information on this please visit fredrikoseberg.github.io `,
             {

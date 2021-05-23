@@ -5,7 +5,7 @@ function WelcomeText(){
         <div className="aboutme-container">
             <h5>Mark <span>Harrison</span></h5>
             <h4 id="main-heading"><span></span>front end developer</h4>
-            <h5><span className="map-icon"><img src={mapMarker}></img></span>United kingdom</h5>
+            <h5><span className="map-icon"><img src={mapMarker} alt="mapmarker"></img></span>United kingdom</h5>
             </div>
     )
 }

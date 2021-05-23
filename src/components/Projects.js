@@ -1,7 +1,6 @@
 import '../styles/Projects.scss'
 import gitIcon from "../Icons/git-alt-brands.svg";
 
-import personalImage from '../img/Project-img/personal.PNG';
 function Projects(props){
 
     
@@ -20,9 +19,9 @@ function Projects(props){
             <div className="col-1">
             <h3>{props.title}</h3>
             <br />
-            <img src={props.image} alt="My Site image"/>
+            <img src={props.image} alt="Site"/>
             <br/>
-            <a href={props.link}><img className="icon" src={gitIcon}></img>View Source</a>
+            <a href={props.link}><img className="icon" src={gitIcon} alt="icon"></img>View Source</a>
             
             <br />
             <h4>Technologies Used</h4>

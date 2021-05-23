@@ -1,5 +1,4 @@
 import React from 'react'
-import Popup from 'reactjs-popup';
 import '../styles/Header.scss'
 
 import gitIcon from "../Icons/github-icon.svg"
@@ -12,23 +11,18 @@ function HeaderText(){
     function popUp(){
         window.alert('placeholder@gmail.com');
     }
-
-
     return(
-        
-            
             <div className="links-container">
             <ul>
-            <li><a href="https://github.com/datalessuk" target="_blank"><span><img className="icon" src={gitIcon}></img><br /></span>Github</a></li>
-            <li><a href="https://www.linkedin.com/in/mark-harrison-2a0638193" target="_blank"><span><img className="icon" src={linkinIcon}></img><br /></span>Linkedin</a></li>
+            <li><a href="https://github.com/datalessuk" target="_blank" rel="noreferrer"><span><img className="icon" src={gitIcon} alt="giticon"></img><br /></span>Github</a></li>
+            <li><a href="https://www.linkedin.com/in/mark-harrison-2a0638193" target="_blank" rel="noreferrer"><span><img className="icon" src={linkinIcon} alt="linkicon"></img><br /></span>Linkedin</a></li>
             <li>
                 
-                    <a href="#" onClick={popUp}><span><img className="icon" src={emailIcon}></img><br /></span>Email</a></li>
+                    <a href="/#" onClick={popUp}><span><img className="icon" src={emailIcon} alt="emailicon"></img><br /></span>Email</a></li>
             
-            <li><a href="https://github.com/datalessuk" target="_blank"><span><img className="icon" src={paperIcon}></img><br /></span>CV</a></li>
+            <li><a href="https://github.com/datalessuk" target="_blank" rel="noreferrer"><span><img className="icon" src={paperIcon} alt="giticon"></img><br /></span>CV</a></li>
             </ul>
             </div>
-        
     )
 }
 export default HeaderText;
