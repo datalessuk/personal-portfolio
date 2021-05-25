@@ -21,7 +21,7 @@ function Projects(props){
             <br />
             <img src={props.image} alt="Site"/>
             <br/>
-            <a href={props.link}><img className="icon" src={gitIcon} alt="icon"></img>View Source</a>
+            <a href={props.link} target="_blank"><img className="icon" src={gitIcon} alt="icon"></img>View Source</a>
             
             <br />
             <h4>Technologies Used</h4>
