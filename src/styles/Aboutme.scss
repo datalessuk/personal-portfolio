@@ -46,6 +46,11 @@ body{
     .col-1{
         margin:0 30px;
         
+        li:hover{
+            color: $color-primary;
+            text-decoration: underline;
+            
+        }
         
     }
     .col-2{
@@ -61,12 +66,9 @@ body{
     }
     
 
-    li:hover{
-        color: $color-primary;
-        text-decoration: underline;
-        
-    }
+    
 }
+
 
 .skills-container{
     display: flex;
@@ -85,8 +87,14 @@ body{
 .tools-container{
     display: flex;
     flex-flow: row wrap;
+    
+    li:hover{
+        color: black;
+        text-decoration: none;
+    }
 
 }
+
 #tools-list{
     display: flex;
     flex-flow: row wrap;
