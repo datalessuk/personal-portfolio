@@ -64,32 +64,32 @@ function AboutMe(){
         return(
             <React.Fragment>
                 <div className="education-container">
-                    <p><span>University of Hull (2017-2020) </span> BSc Computer Science - Achieved grade 2:1
-                    <br/>
+                    <p><span>University of Hull (2017-2020) </span> BSc Computer Science - Achieved grade 2:1</p>
                     <span>Weymouth College (2016)</span> BTEC ICT level 3 with triple distinction star (D*D*D*)
                     <br />
-                    <span>
                     <h4>Skills</h4>
                     <div className="skills-container">
-                        <ul id="skills-list">
+                        <ul className="skills-list">
                         <li>HTML(5)</li>
                         <li>CSS(3)</li>
                         <li>SASS</li>
                         <li>JSON</li>
                         <li>Javascript</li>
+                        <li>React</li>
                         <li>XML</li>
                         <li>C#</li>
                         <li>Java</li>
+                        <li>NodeJS</li>
                         </ul>
-                        
                         </div>
+                       
                         <h4>Tools</h4>
                         <div className="tools-container">
-                            <ul id="tools-list">
+                            <ul className="tools-list">
                                 <li>Firefox</li>
                                 <li>Chrome</li>
                                 <li>MS Office</li>
-                                <li>Notpad++</li>
+                                <li>Notepad++</li>
                                 <li>Visual Studio</li>
                                 <li>Visual Studio Code</li>
                                 <li>Android Studio</li>
@@ -97,9 +97,7 @@ function AboutMe(){
                                 <li>Subversion</li>
                             </ul>
                         </div>
-                    </span>
-                    </p>
-                </div>
+                    </div>
             </React.Fragment>
         )
     }

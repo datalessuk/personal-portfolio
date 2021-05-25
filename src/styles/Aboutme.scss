@@ -64,46 +64,41 @@ body{
             font-weight: bold;
         }
     }
-    
-
-    
 }
-
 
 .skills-container{
     display: flex;
-    flex-flow: row wrap;
-    
+    flex-flow: wrap;
+   
 }
-#skills-list{
+.skills-list{
     display: flex;
     flex-flow: row wrap;
     
+    
     li{
-        flex-basis: 50%;
+        flex-basis: 40%;
+      
     }
 }
 
 .tools-container{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: wrap;
     
-    li:hover{
-        color: black;
-        text-decoration: none;
-    }
-
+    
 }
-
-#tools-list{
+.tools-list{
     display: flex;
     flex-flow: row wrap;
-
+    
+    
     li{
-        flex-basis: 30%;
+        flex-basis: 40%;
+        width: 56px;
     }
-
 }
+
 
 @media only screen and (max-width: 900px) {
     .flex-container{
@@ -113,9 +108,16 @@ body{
         width: 300px;
         text-align: left;
     }
-    #tools-list{
-        flex-basis:  30%;
+    
+    .tools-list{
+        flex-basis:  50%;
+        flex-direction: column;
+    }
+    .skills-list{
+        flex-direction: column;
+        
     }
 
 }
+
 }
