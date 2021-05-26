@@ -53,9 +53,9 @@ function AboutMe(){
         return(
             <React.Fragment>
                 <div className="details-container">
-                    <p>Thank you for viewing my site hope your having an amazing {todaysDay}. I am a Junior programmer with good knowledge of front-end and backend techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps.</p>
+                    <p>Thank you for viewing my site hope your having an amazing {todaysDay}. I’m a all around developer with a strong interest in web technologies. I am a Junior programmer with good knowledge of front-end and backend techniques.  I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing applications.</p>
                     
-                    <p>I love to spend time coding, listening to music die hard <span>Avantasia</span> fan.Big fan of horror films, mountain biking and gaming.</p>
+                    <p>I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills and am fully aware of the latest Front-end Development.</p>
                 </div>
             </React.Fragment>
         )
@@ -64,7 +64,7 @@ function AboutMe(){
         return(
             <React.Fragment>
                 <div className="education-container">
-                    <p><span>University of Hull (2017-2020) </span> BSc Computer Science - Achieved grade 2:1</p>
+                    <p><span>University of Hull (2017-2020) </span> BSc Computer Science - Achieved Grade 2:1</p>
                     <span>Weymouth College (2016)</span> BTEC ICT level 3 with triple distinction star (D*D*D*)
                     <br />
                     <h4>Skills</h4>
