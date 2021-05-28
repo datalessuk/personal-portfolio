@@ -9,7 +9,7 @@ import paperIcon from '../Icons/paper-lcon.svg'
 
 function HeaderText(){
     function popUp(){
-        window.alert('placeholder@gmail.com');
+        window.alert('dataless@gmail.com');
     }
     return(
             <div className="links-container">
@@ -20,7 +20,7 @@ function HeaderText(){
                 
                     <a href="/#" onClick={popUp}><span><img className="icon" src={emailIcon} alt="emailicon"></img><br /></span>Email</a></li>
             
-            <li><a href="https://github.com/datalessuk" target="_blank" rel="noreferrer"><span><img className="icon" src={paperIcon} alt="giticon"></img><br /></span>CV</a></li>
+            <li><a href="https://drive.google.com/file/d/19rIjMTCFZqXCUuqU95M2Kc4uCw_1icNR/view?usp=sharing" target="_blank" rel="noreferrer"><span><img className="icon" src={paperIcon} alt="giticon"></img><br /></span>CV</a></li>
             </ul>
             </div>
     )
