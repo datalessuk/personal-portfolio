@@ -7,13 +7,10 @@ function Projects(props){
     return(
         <section id="projects">
         <div className="projects-container">
-            
-            
             <h1 className="projects-heading">{props.mainHeading}</h1>
-            <h2>{props.subHeading}</h2>
-            
+            <h2>{props.subHeading}</h2>  
         </div>
-          
+
         <div className="project-container">
 
             <div className="col-1">

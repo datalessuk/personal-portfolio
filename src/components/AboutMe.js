@@ -25,7 +25,7 @@ function AboutMe(){
             
             <h1>Profile</h1>
             <br />
-            <h2>I'm a Junior <span>F</span>ront End <span>D</span>eveloper</h2>
+            <h2>I'm a Junior <span>D</span>eveloper</h2>
             <br />
             </div>
         <div className="flex-container">
