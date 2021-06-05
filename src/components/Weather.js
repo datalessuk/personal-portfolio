@@ -22,7 +22,7 @@ const Weather = (props)=>{
             console.log(error);
         })
 
-    })
+    },[])
 
   
 
