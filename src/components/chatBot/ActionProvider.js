@@ -1,8 +1,5 @@
 
 class ActionProvider {
-
-    
-
     constructor(createChatBotMessage, setStateFunc, createClientMessage) {
       this.createChatBotMessage = createChatBotMessage;
       this.setState = setStateFunc; 
@@ -21,7 +18,7 @@ class ActionProvider {
 
     handleAboutMe = () =>{
         const message = this.createChatBotMessage(
-            `Random facts about me.  Big Horror film fan,Metal lover Avantasia❤️Part time gamer big fan of RPGs & FPS `,
+            `Random facts about myself: Big horror film enthusiast, Metal Music lover (Avantasia ❤️), Part time gamer and a huge fan of role playing games & First person shooters!`,
             {
                 widget:"about-me",
             }
@@ -42,7 +39,7 @@ class ActionProvider {
 
     handleAbout = ()=>{
         const message = this.createChatBotMessage(
-            `This bot is build using the core of react-chatbot kit by fredrikoseberg. For more information on this please visit fredrikoseberg.github.io `,
+            `This bot is built using the core of react-chatbot kit by fredrikoseberg. For more information on this please visit fredrikoseberg.github.io `,
             {
                 widget:"about",
             }
@@ -63,9 +60,6 @@ class ActionProvider {
                }));
     }
    
-    
-
-
 }
   
   export default ActionProvider;

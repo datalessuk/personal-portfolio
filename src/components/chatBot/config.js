@@ -5,7 +5,7 @@ import Weather from '../Weather'
 const config = {
   botName:'Marks Bot',
   initialMessages: [
-    createChatBotMessage(`Welcome Marks personal portfolio`,{
+    createChatBotMessage(`Welcome to Mark's Personal Portfolio! How may i assist you today? `,{
     widget:"options",
   }),
 
