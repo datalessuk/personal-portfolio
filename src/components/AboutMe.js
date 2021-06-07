@@ -51,7 +51,7 @@ function AboutMe(){
         return(
             <React.Fragment>
                 <div className="details-container">
-                    <p>Thank you for viewing my site hope your having an amazing {todaysDay}. I’m a qualified developer with a strong interest in web technologies, i have good knowledge of front-end and backend techniques.  I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing applications.</p>
+                    <p>Thank you for viewing my site hope your having an amazing {todaysDay}. I’m a qualified developer with a strong interest in web technologies, i have good working knowledge of front end technologies with the goal of been a full stack developer in the future. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing applications.</p>
                     
                     <p>I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills and am fully aware of the latest Front-end Development technologys.</p>
                 </div>
