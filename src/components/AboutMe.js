@@ -31,8 +31,8 @@ function AboutMe(){
         <div className="flex-container">
             
          <div className="col-1">
-
-                <h3>All about me</h3>
+         <h3>About me</h3>
+                
                 <ol>
                     <li onClick={()=>setText(!showText)}>Details</li>
                     <li onClick={()=>setText(!showText)}>Education & Skills</li>
