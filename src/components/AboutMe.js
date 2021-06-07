@@ -25,8 +25,6 @@ function AboutMe(){
             
             <h1>Profile</h1>
             <br />
-            <h2>I'm a Junior <span>D</span>eveloper</h2>
-            <br />
             </div>
         <div className="flex-container">
             
@@ -55,7 +53,7 @@ function AboutMe(){
                 <div className="details-container">
                     <p>Thank you for viewing my site hope your having an amazing {todaysDay}. I’m a all around developer with a strong interest in web technologies. I am a Junior programmer with good knowledge of front-end and backend techniques.  I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing applications.</p>
                     
-                    <p>I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills and am fully aware of the latest Front-end Development.</p>
+                    <p>I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills and am fully aware of the latest Front-end Development technologys.</p>
                 </div>
             </React.Fragment>
         )
