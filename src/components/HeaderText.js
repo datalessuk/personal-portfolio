@@ -20,7 +20,7 @@ function HeaderText(){
                 
                     <a href="/#" onClick={popUp}><span><img className="icon" src={emailIcon} alt="emailicon"></img><br /></span>Email</a></li>
             
-            <li><a href="#" target="_blank" rel="noreferrer"><span><img className="icon" src={paperIcon} alt="giticon"></img><br /></span>CV</a></li>
+            <li><a href="https://docs.google.com/document/d/1bqzP03Xr_-BuTtTa-yZHlCCO_MQ7hWyeZGnIYVpM_14/edit?usp=sharing" target="_blank" rel="noreferrer"><span><img className="icon" src={paperIcon} alt="giticon"></img><br /></span>CV</a></li>
             </ul>
             </div>
     )
