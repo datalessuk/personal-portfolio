@@ -1,5 +1,6 @@
 import '../styles/Projects.scss'
 import gitIcon from "../Icons/git-alt-brands.svg";
+import liveIcon from '../Icons/laptop-solid.svg';
 
 function Projects(props){
 
@@ -18,7 +19,11 @@ function Projects(props){
             <br />
             <img src={props.image} alt="Site"/>
             <br/>
-            <a href={props.link} target="_blank" rel="noreferrer"><img className="icon" src={gitIcon} alt="icon"></img>View Source</a>
+            
+            <a href={props.link} target="_blank" rel="noreferrer"><img className="icon" src={gitIcon} alt="icon" ></img>View Source</a>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            
+            <a href={props.liveView} target="_black" rel="noreferrer" id={props.active}><img className="liveIcon" src={liveIcon} alt="icon" ></img> Live View</a>
             
             <br />
             <h4>Technologies Used</h4>

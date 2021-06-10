@@ -67,6 +67,21 @@ $color-primary: #4497E2;
             position: relative;
             
         }
+        .liveIcon{
+            width: 22px;
+            height: 22px;
+            box-shadow:none;
+            position: relative;
+            
+        }
+        .links{
+            display: inline;
+            
+            
+        }
+        #disabled-link{
+            pointer-events: none;
+        }
         a{
             text-decoration: none;
             color: $color-primary;
