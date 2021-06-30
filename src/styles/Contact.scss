@@ -1,0 +1,50 @@
+$color-primary: #4497E2;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.email-container{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    
+    #text-input{
+        height: 30px;
+        min-width: 300px;
+        border-radius:1px;
+        padding:12px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        border-radius: 10px;
+        border:solid 2px $color-primary;
+        font-size: 1rem;
+    }
+    #message-input{
+        height: 150px;
+        resize: vertical;
+        border:solid 2px $color-primary;
+        border-radius: 10px;
+        min-width: 320px;
+        font-size: 1rem;
+    }
+
+    input[type=submit]{
+        background-color: $color-primary;
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        cursor: pointer;
+        border:1px solid white;
+        color: white;
+        margin-bottom: 5px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .button{
+        text-align: center;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
+
