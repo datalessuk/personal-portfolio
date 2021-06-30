@@ -8,9 +8,7 @@ import paperIcon from '../Icons/paper-lcon.svg'
 
 
 function HeaderText(){
-    function popUp(){
-        window.alert('dataless@gmail.com');
-    }
+    
     return(
             <div className="links-container">
             <ul>

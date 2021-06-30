@@ -8,6 +8,7 @@ $color-primary: #4497E2;
     align-content: center;
     justify-content: center;
     width: 100%;
+    background: linear-gradient( rgba(255,255,255,1) 50%, rgba(68,151,226,0.16290266106442575) 100%);
     
     #text-input{
         height: 30px;
@@ -20,6 +21,8 @@ $color-primary: #4497E2;
         border:solid 2px $color-primary;
         font-size: 1rem;
     }
+
+   
     #message-input{
         height: 150px;
         resize: vertical;
@@ -45,6 +48,7 @@ $color-primary: #4497E2;
     }
     h1{
         font-size: 2rem;
+        letter-spacing: 1px;
     }
 }
 

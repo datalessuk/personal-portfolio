@@ -34,7 +34,9 @@ export default function ContactMe(){
                    <textarea type="text" placeholder="Message" id="message-input" name="message"/>
                    <br />
                    <div className="button">
+                       <br />
                    <input type="submit" value="Send Message"/>
+                   <br />
                    </div>
                    
                    
