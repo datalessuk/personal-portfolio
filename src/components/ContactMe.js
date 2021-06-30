@@ -22,7 +22,7 @@ export default function ContactMe(){
            
            return(
                
-               <div className="email-container">
+               <div className="email-container" id="contact">
                    <div className="heading"><h1>Contact Me</h1></div>
                    <form className="contact-form" onSubmit={sendEmail}>
                    <input type="text" placeholder="Name" id="text-input" name="from_name"/>
