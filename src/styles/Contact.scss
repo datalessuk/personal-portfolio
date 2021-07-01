@@ -50,5 +50,16 @@ $color-primary: #4497E2;
         font-size: 2rem;
         letter-spacing: 1px;
     }
+
+    p {
+        color: #c2135c;
+        padding: 0;
+        margin: 0;
+      }
+      
+      p::before {
+        display: inline;
+        content: "⚠ ";
+      }
 }
 
